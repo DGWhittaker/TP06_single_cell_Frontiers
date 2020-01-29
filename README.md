@@ -1,8 +1,10 @@
 # TP06 single cell code
 
-This repository contains C++ code for single cell models used in the Frontiers paper
+This repository contains C++ code for [TP06 single cell](https://doi.org/10.1152/ajpheart.00109.2006) models and Python plotting scipts used in our [recent Frontiers paper](https://doi.org/10.3389/fphys.2019.00308)
 
-* [APs](https://github.com/DGWhittaker/TP06_single_cell_Frontiers/tree/master/APs) contains single cell model outputs
+* Compile with single cell model with `g++ TNNP.cpp -o ttcell`. Short and basal action potential variants are described within code.
+* Run `python plot_APs.py` or `python plot_APs_short.py` to output figures.
+* [APs](https://github.com/DGWhittaker/TP06_single_cell_Frontiers/tree/master/APs) contains single cell model output text files required for figures.
 
 # Acknowledging this work
 
